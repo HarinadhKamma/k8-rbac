@@ -4,6 +4,6 @@ metadata:
   namespace: roboshop
   name: roboshop-trainee
 rules:
-- apiGroups: [""] # "" indicates the core API group
+- apiGroups: [""] # "" indicates the core API group (Deployment,Replicaset etcc.. which are with v1 service)
   resources: ["pods"]
   verbs: ["get", "watch", "list"]
